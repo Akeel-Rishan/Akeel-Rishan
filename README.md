@@ -34,60 +34,14 @@ An intelligent system that:
 * Routes leads automatically
 * Improves sales team efficiency
 
-### Enterprise Marketplace Platform
-
-Built an enterprise-scale automotive marketplace platform in collaboration with DigiFix (Australia) and the University of Moratuwa.
-
----
-
-## 🛠️ Tech Stack
-
-### AI & Machine Learning
-
-* OpenAI GPT Models
-* Agentic AI
-* RAG Systems
-* Prompt Engineering
-* LLM Applications
-* Machine Learning
-* Deep Learning
-
-### Backend
-
-* Python
-* FastAPI
-* REST APIs
-* PostgreSQL
-* Redis
-
-### Frontend
-
-* React.js
-* JavaScript
-* HTML
-* CSS
-
-### DevOps & Tools
-
-* Docker
-* Git
-* GitHub Actions
-* n8n
-* Relevance AI
-* Firecrawl
-
----
-
-## 🌱 Currently Learning
-
-* Advanced AI Engineering
-* Multi-Agent Systems
-* AI Product Development
-* Production-Ready LLM Applications
-* AI Infrastructure & Deployment
-
 ---
 
 ### 💡 Mission
 
 Building AI systems that help businesses automate workflows, increase productivity, and unlock new opportunities through intelligent automation.
+
+
+
+
+
+
