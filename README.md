@@ -81,13 +81,7 @@ Currently focused on:
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akeel-Rishan&theme=react-dark&hide_border=true)](https://github.com/Akeel-Rishan)
 
----
 
-## 💡 Mission
-
-> Building AI systems that help businesses **automate workflows**, **increase productivity**, and **unlock new opportunities** through intelligent automation.
-
----
 
 <div align="center">
 
