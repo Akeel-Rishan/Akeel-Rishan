@@ -12,7 +12,7 @@
 
 ```ts
 const akeel = {
-  role:     "AI Engineer & Full-Stack Developer",
+  role:     "AI Engineer",
   location: "🇱🇰 Sri Lanka",
   focus:    ["Autonomous AI Agents", "RAG Pipelines", "LLM-Powered SaaS"],
   stack:    ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "OpenAI", "Claude"],
