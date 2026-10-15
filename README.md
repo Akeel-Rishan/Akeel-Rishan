@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Akeel%20Rishan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20LLM%20Systems%20%7C%20Autonomous%20Agents&descAlignY=55&descSize=16"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=15&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&width=600&height=60&lines=Building+production+AI+systems+that+ship+%F0%9F%9A%80;RAG+%C2%B7+Agents+%C2%B7+LLM+Pipelines+%C2%B7+Full-Stack+SaaS)](https://github.com/Akeel-Rishan)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=15&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&width=650&height=60&lines=Building+production+AI+systems+that+ship+%F0%9F%9A%80;RAG+%C2%B7+Agents+%C2%B7+LLM+Pipelines+%C2%B7+Full-Stack+SaaS)](https://github.com/Akeel-Rishan)
 
 </div>
 
@@ -12,11 +12,11 @@
 
 ```ts
 const akeel = {
-  role:     "AI Engineer",
+  role:     "AI Engineer & Software Developer",
   location: "🇱🇰 Sri Lanka",
   focus:    ["Autonomous AI Agents", "RAG Pipelines", "LLM-Powered SaaS"],
-  stack:    ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "OpenAI", "Claude"],
-  building: "LeadFlow AI — multi-tenant lead automation SaaS",
+  stack:    ["TypeScript", "Python", "Next.js", "FastAPI", "PostgreSQL", "OpenAI", "Claude", "Gemini"],
+  building: "Enterprise AI Support Copilot — RAG · LangGraph · pgvector",
   open_to:  ["Freelance", "AI consulting", "Remote contracts"],
 };
 ```
@@ -29,10 +29,29 @@ const akeel = {
 <tr>
 <td width="50%" valign="top">
 
+### 🏢 Enterprise AI Support Copilot
+Intelligent knowledge management & support automation platform with a full advanced RAG pipeline and agentic workflows.
+
+**Stack:** Python · FastAPI · LangChain · LangGraph · PostgreSQL · pgvector · React · Docker · Redis
+
+**Shipped:**
+- Hybrid retrieval: pgvector semantic search + PostgreSQL full-text (RRF fusion)
+- Cross-encoder reranking pipeline for precision retrieval
+- LangGraph stateful multi-step ticket workflow with human confirmation gate
+- Role-based document permissions enforced at retrieval layer (admin / agent / customer)
+- Ragas-evaluated RAG pipeline: Recall@5, faithfulness, citation validity
+- Idempotent document ingestion with Redis queue worker
+- Source citations with page-level references and passage previews
+- Prompt injection protection — documents treated as untrusted at all stages
+
+</td>
+<td width="50%" valign="top">
+
 ### 🤖 LeadFlow AI
 Multi-tenant lead automation SaaS with full RAG pipeline.
 
-**Stack:** Next.js 14 · Express · Prisma · pgvector · OpenAI  
+**Stack:** Next.js 14 · Express · Prisma · pgvector · OpenAI
+
 **Shipped:**
 - GPT-4o-mini qualification agent with structured JSON scoring
 - RAG knowledge base (pgvector + text-embedding-3-small)
@@ -41,12 +60,15 @@ Multi-tenant lead automation SaaS with full RAG pipeline.
 - A2P 10DLC compliant Twilio integration
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🚗 Car Parts Marketplace
 Multi-app platform with real-time delivery and payments.
 
-**Stack:** React Native · Node.js · Socket.io · PostgreSQL · FCM  
+**Stack:** React Native · Node.js · Socket.io · PostgreSQL · FCM
+
 **Shipped:**
 - Live GPS background tracking for rider app
 - OTP pickup verification + proof of delivery
@@ -55,14 +77,13 @@ Multi-app platform with real-time delivery and payments.
 - 4-app architecture: customer / supplier / rider / admin
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🧠 AI Portfolio
 Production portfolio with live AI demos.
 
-**Stack:** Next.js 14 · FastAPI · Gemini API · Pinecone  
+**Stack:** Next.js 14 · FastAPI · Gemini API · Pinecone
+
 **Shipped:**
 - RAG-powered portfolio chatbot (Pinecone vector search)
 - Resume analyser with streaming SSE responses
@@ -70,17 +91,34 @@ Production portfolio with live AI demos.
 - Deployed on Vercel with full SEO
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### ⚡ AI Agents
 Standalone autonomous agents with LLM backends.
 
-**Stack:** Node.js · Gemini · OpenAI · Claude API  
+**Stack:** Node.js · Gemini · OpenAI · Claude API
+
 **Shipped:**
 - Resume Reviewer Agent (streaming Gemini)
 - Email Writer Agent (structured prompt chains)
 - Lead Qualification Agent (GPT-4o-mini + JSON scoring)
 - Agentic workflows with tool use + RAG retrieval
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 AI WhatsApp Business Assistant
+SaaS platform turning WhatsApp into an AI-powered business channel.
+
+**Stack:** Next.js 14 · FastAPI · Gemini API · Supabase · WhatsApp Cloud API
+
+**Shipped:**
+- Knowledge base ingestion with vector retrieval
+- Webhook message pipeline with AI response generation
+- FAQ engine with fallback-to-human escalation
+- Multi-tenant business account management
 
 </td>
 </tr>
@@ -95,18 +133,25 @@ Standalone autonomous agents with LLM backends.
 ![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat-square&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-6366F1?style=flat-square&logoColor=white)
+![Ragas](https://img.shields.io/badge/Ragas_Eval-FF6B6B?style=flat-square&logoColor=white)
 
 **Backend**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logoColor=white)
 
 **Frontend**
 
@@ -118,8 +163,9 @@ Standalone autonomous agents with LLM backends.
 
 **Infra & Integrations**
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![Twilio](https://img.shields.io/badge/Twilio_A2P_10DLC-F22F46?style=flat-square&logo=twilio&logoColor=white)
 ![Resend](https://img.shields.io/badge/Resend-000000?style=flat-square&logoColor=white)
@@ -150,6 +196,7 @@ Standalone autonomous agents with LLM backends.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/akeel-rishan)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://akeelrishan.me)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@AkeelRishan)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
